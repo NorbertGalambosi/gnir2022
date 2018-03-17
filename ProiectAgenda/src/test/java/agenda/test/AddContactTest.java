@@ -26,8 +26,8 @@ public class AddContactTest {
 	public void testCase1()
 	{
 		try {
-			con = new Contact("name", "address1", "+4071122334455");
-		} catch (InvalidFormatException e) {
+			con = new Contact("name", "address1", "+4071122334455","email@dom.com");
+		} catch (Exception e) {
 			assertTrue(false);
 		}
 		//int n = rep.count();
@@ -60,9 +60,9 @@ public class AddContactTest {
 			rep.removeContact(c);
 		
 		try {
-			con = new Contact("name", "address1", "+071122334455");
+			con = new Contact("name", "address1", "+071122334455","email@dom.com");
 			rep.addContact(con);
-		} catch (InvalidFormatException e) {
+		} catch (Exception e) {
 			assertTrue(false);
 		}
 		int n  = rep.count();

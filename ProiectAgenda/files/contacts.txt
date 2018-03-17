@@ -1,4 +1,7 @@
-name1#address1#+071122334455#email@domain.com
-name2#address2#+071122334456#email2@domain.com
-name3#address3#+071122334457#email3@domain.com
-name4#address4#+071122334458#email4@domain.com
+name1#address1#+071122334455#email@dom.com#
+name2#address2#+071122334456#email@dom.com#
+name3#address3#+071122334457#email@dom.com#
+name4#address4#+071122334458#email@dom.com#
+Ion#Strada1#074122232#email@dom.com#
+Ion#Address#0741333443#em@asd.com#
+NumeContact#AdressStrret#0741333222#email@gmail.com#
