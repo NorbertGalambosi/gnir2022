@@ -17,7 +17,7 @@ public class Contact {
         Email = "";
     }
 
-    public Contact(String name, String address, String telefon, String email) throws Exception {
+    public Contact(String name, String address, String telefon, String email) throws Exception, InvalidFormatException {
         if (!validTelefon(telefon)) throw new InvalidFormatException("Cannot convert", "Invalid phone number");
         if (!validName(name)) throw new Exception("Invalid name type, should be string.");
         if (!validAddress(address)) throw new InvalidFormatException("Cannot convert", "Invalid address");
@@ -100,10 +100,9 @@ public class Contact {
     }
 
     private static boolean validTelefon(String tel) {
-        String[] s = tel.split("[\\p{Punct}\\s]+");
-        if (tel.charAt(0) == '+' && s.length == 2) return true;
-        if (tel.charAt(0) != '0') return false;
-        if (s.length != 1) return false;
+
+        if (tel.length() <= 0)
+            return false;
         return true;
     }
 

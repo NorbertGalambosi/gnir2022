@@ -77,4 +77,34 @@ public class RepoContactTest {
         assertTrue(repoSizeBeforeAdd + 1 != repositoryContact.count());
     }
 
+    @Test
+    public void addContactInvalidEmail() {
+
+        try {
+            contact = new Contact("Gigel", "address1", "+4071122334455", "email@d");
+        } catch (Exception e) {
+            assertTrue(true);
+            System.out.println("Invalid email");
+        }
+
+        int repoSizeBeforeAdd = repositoryContact.count();
+        repositoryContact.addContact(contact);
+        assertTrue(repoSizeBeforeAdd + 1 != repositoryContact.count());
+    }
+
+    @Test
+    public void addContactNoPhoneNumber() {
+
+        try {
+            contact = new Contact("Gigel", "address1", "", "email@dot.com");
+        } catch (Exception e) {
+            assertTrue(true);
+            System.out.println("Wrong phone number");
+        }
+
+        int repoSizeBeforeAdd = repositoryContact.count();
+        repositoryContact.addContact(contact);
+        assertTrue(repoSizeBeforeAdd + 1 != repositoryContact.count());
+    }
+
 }
