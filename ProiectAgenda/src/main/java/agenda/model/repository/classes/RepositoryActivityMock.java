@@ -108,4 +108,9 @@ public class RepositoryActivityMock implements RepositoryActivity {
 		return result;
 	}
 
+	@Override
+	public boolean removeLastAddedActivity() {
+		return false;
+	}
+
 }

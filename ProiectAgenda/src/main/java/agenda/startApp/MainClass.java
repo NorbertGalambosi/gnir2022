@@ -11,6 +11,7 @@ import agenda.model.repository.interfaces.RepositoryActivity;
 import agenda.model.repository.interfaces.RepositoryContact;
 import agenda.model.repository.interfaces.RepositoryUser;
 
+import javax.naming.NameNotFoundException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -111,8 +112,12 @@ public class MainClass {
                                         RepositoryContact contactRep, BufferedReader in, User user) {
         try {
             System.out.printf("Adauga Activitate: \n");
+            System.out.printf("Denumire: ");
+            String denumire = in.readLine();
             System.out.printf("Descriere: ");
             String description = in.readLine();
+            System.out.printf("Loc : ");
+            String place = in.readLine();
             System.out.printf("Start Date(format: mm/dd/yyyy): ");
             String dateS = in.readLine();
             System.out.printf("Start Time(hh:mm): ");
@@ -129,6 +134,18 @@ public class MainClass {
             String dateE = in.readLine();
             System.out.printf("End Time(hh:mm): ");
             String timeE = in.readLine();
+            System.out.println("Number of contacts :");
+            Integer nrCon = Integer.parseInt(in.readLine());
+            LinkedList<Contact> contacts = new LinkedList<Contact>();
+            for (int i = 0; i < nrCon; i++) {
+                System.out.println("Contact name : ");
+                String cname = in.readLine();
+                try {
+                    contacts.add(new Contact(cname, "empty", "0", "empty@empty.com"));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
 
             c.set(Integer.parseInt(dateE.split("/")[2]),
                     Integer.parseInt(dateE.split("/")[0]) - 1,
@@ -137,12 +154,16 @@ public class MainClass {
                     Integer.parseInt(timeE.split(":")[1]));
             Date end = c.getTime();
 
-            Activity act = new Activity(user.getName(), start, end,
-                    new LinkedList<Contact>(), description);
+            Activity act = new Activity(denumire, start, end, contacts, description, place);
 
-            activityRep.addActivity(act);
-
-            System.out.printf("S-a adugat cu succes\n");
+            try {
+                if (activityRep.addActivity(act))
+                    System.out.printf("S-a adugat cu succes\n");
+                else
+                    System.out.println("Nu s'a adaugat");
+            } catch (NameNotFoundException e) {
+                e.printStackTrace();
+            }
         } catch (IOException e) {
             System.out.printf("Eroare de citire: %s\n" + e.getMessage());
         }

@@ -17,6 +17,8 @@ import agenda.model.repository.interfaces.RepositoryContact;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.naming.NameNotFoundException;
+
 public class AfisActivityTest {
 
 	RepositoryActivity rep;
@@ -28,7 +30,7 @@ public class AfisActivityTest {
 	}
 
 	@Test
-	public void testCase1() {
+	public void testCase1() throws NameNotFoundException {
 		for (Activity act : rep.getActivities())
 			rep.removeActivity(act);
 
@@ -51,7 +53,7 @@ public class AfisActivityTest {
 	}
 
 	@Test
-	public void testCase2() {
+	public void testCase2() throws NameNotFoundException {
 		for (Activity act : rep.getActivities())
 			rep.removeActivity(act);
 

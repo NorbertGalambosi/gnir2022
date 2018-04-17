@@ -12,4 +12,5 @@ public interface RepositoryContact {
 	boolean saveContracts();
 	int count();
 	Contact getByName(String string);
+	boolean contactNameExists(String fullName);
 }

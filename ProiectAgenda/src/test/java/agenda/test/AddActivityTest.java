@@ -14,6 +14,8 @@ import agenda.model.repository.interfaces.RepositoryActivity;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.naming.NameNotFoundException;
+
 public class AddActivityTest {
 	private Activity act;
 	private RepositoryActivity rep;
@@ -35,6 +37,8 @@ public class AddActivityTest {
 					"Lunch break");
 			rep.addActivity(act);
 		} catch (ParseException e) {
+			e.printStackTrace();
+		} catch (NameNotFoundException e) {
 			e.printStackTrace();
 		}
 		assertTrue(1 == rep.count());

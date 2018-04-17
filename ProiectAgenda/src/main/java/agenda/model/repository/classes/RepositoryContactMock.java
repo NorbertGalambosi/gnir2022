@@ -63,4 +63,9 @@ public class RepositoryContactMock implements RepositoryContact {
         return null;
     }
 
+    @Override
+    public boolean contactNameExists(String fullName) {
+        return false;
+    }
+
 }

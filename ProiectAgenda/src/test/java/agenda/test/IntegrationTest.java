@@ -10,6 +10,7 @@ import agenda.model.repository.interfaces.RepositoryContact;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.naming.NameNotFoundException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -58,13 +59,15 @@ public class IntegrationTest {
             repAct.addActivity(act);
         } catch (ParseException e) {
             e.printStackTrace();
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
         }
         assertTrue(repAct.getActivities().get(0).equals(act)
                 && repAct.count() == 1);
     }
 
     @Test
-    public void test3() {
+    public void test3() throws NameNotFoundException {
         Calendar c = Calendar.getInstance();
         c.set(2013, 3 - 1, 20, 12, 00);
         Date start = c.getTime();
@@ -93,6 +96,8 @@ public class IntegrationTest {
             repAct.addActivity(act);
         } catch (ParseException e) {
             e.printStackTrace();
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
         }
         assertTrue(repAct.getActivities().get(0).equals(act)
                 && repAct.count() == 1);
@@ -114,6 +119,8 @@ public class IntegrationTest {
                     df.parse("03/20/2013 13:00"), null, "Lunch break");
             repAct.addActivity(act);
         } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
         try {
@@ -138,6 +145,8 @@ public class IntegrationTest {
                     df.parse("03/20/2013 13:00"), null, "Lunch break");
             repAct.addActivity(act);
         } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
         if (repAct.getActivities().get(0).equals(act) && repAct.count() == 1)
@@ -172,6 +181,8 @@ public class IntegrationTest {
             repAct.addActivity(act);
         } catch (ParseException e) {
             e.printStackTrace();
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
         }
         if (repAct.getActivities().get(0).equals(act) && repAct.count() == 1)
             part2 = true;
@@ -201,6 +212,8 @@ public class IntegrationTest {
                     df.parse("03/20/2013 13:00"), null, "Lunch break");
             repAct.addActivity(act);
         } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
         if (repAct.getActivities().get(0).equals(act) && repAct.count() == 1)
@@ -235,6 +248,8 @@ public class IntegrationTest {
                     df.parse("03/20/2013 13:00"), null, "Lunch break");
             repAct.addActivity(act);
         } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
         try {
@@ -272,6 +287,8 @@ public class IntegrationTest {
                     df.parse("03/20/2013 13:00"), null, "Lunch break");
             repAct.addActivity(act);
         } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (NameNotFoundException e) {
             e.printStackTrace();
         }
         if (repAct.getActivities().get(0).equals(act) && repAct.count() == 1)
