@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="agenda.test.AfisActivityTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="agenda.test.func2.RepoActivityTest" time="0.049" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
@@ -65,9 +65,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="agenda.test.AfisActivityTest" name="testCase1" time="0"/>
-  <testcase classname="agenda.test.AfisActivityTest" name="testCase2" time="0"/>
-  <testcase classname="agenda.test.AfisActivityTest" name="testCase3" time="0.002"/>
-  <testcase classname="agenda.test.AfisActivityTest" name="testCase4" time="0.005"/>
-  <testcase classname="agenda.test.AfisActivityTest" name="testCase5" time="0.004"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="addActivityWithSuccess" time="0.001"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="addActivityWithSuccessNoContacts" time="0.005"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="getActivitesByDateWithFailureNoValidUsername" time="0.007"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="addActivityWithContactNameError" time="0.011"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="addActivityWithoutSuccess" time="0.011"/>
+  <testcase classname="agenda.test.func2.RepoActivityTest" name="getActivitesByDateWithSuccess" time="0.014"/>
 </testsuite>

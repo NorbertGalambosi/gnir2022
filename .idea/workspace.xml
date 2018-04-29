@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func3/BigBangIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func2/RepoActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func1/RepoContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func3/TopDownIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/activities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/activities.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddActivityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddContactTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddContactTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AfisActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AfisActivityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.IntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.IntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddActivityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddActivityTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddContactTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddContactTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.IntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.IntegrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/AddActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/AddActivityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/AddContactTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/AddContactTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/AfisActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/AfisActivityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/BigBangIntegration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/IntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/RepoActivityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/RepoContactTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/TopDownIntegration.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -511,7 +525,7 @@
       <workItem from="1524990360430" duration="4616000" />
       <workItem from="1524997111184" duration="1325000" />
       <workItem from="1525009040797" duration="20000" />
-      <workItem from="1525010062726" duration="1711000" />
+      <workItem from="1525010062726" duration="2614000" />
     </task>
     <servers />
   </component>
@@ -548,10 +562,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53109000" />
+    <option name="totallyTimeSpent" value="54012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -563,10 +577,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33168316" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4888889" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4962963" weight="0.24962178" />
