@@ -1,4 +1,4 @@
-package agenda.test;
+package agenda.test.func1;
 
 import agenda.model.base.Contact;
 import agenda.model.repository.classes.RepositoryContactMock;

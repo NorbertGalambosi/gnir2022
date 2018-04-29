@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="" />
+    <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func3/BigBangIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func2/RepoActivityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func1/RepoContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/func3/TopDownIntegration.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,19 +50,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="RepoContactTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func1/RepoContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="RepoActivityTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func2/RepoActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopDownIntegration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func3/TopDownIntegration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigBangIntegration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func3/BigBangIntegration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -258,15 +281,15 @@
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.test.*" />
+          <option name="PATTERN" value="agenda.test.func1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <extension name="recording" autostart="true" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.BigBangIntegration" />
+      <option name="PACKAGE_NAME" value="agenda.test.func3" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.func3.BigBangIntegration" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -282,15 +305,15 @@
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.test.*" />
+          <option name="PATTERN" value="agenda.test.func1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <extension name="recording" autostart="true" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.BigBangIntegration" />
+      <option name="PACKAGE_NAME" value="agenda.test.func3" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.func3.BigBangIntegration" />
       <option name="METHOD_NAME" value="BigBangTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -306,15 +329,15 @@
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.test.*" />
+          <option name="PATTERN" value="agenda.test.func1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <extension name="recording" autostart="true" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoContactTest" />
+      <option name="PACKAGE_NAME" value="agenda.test.func1" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.func1.RepoContactTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -330,15 +353,15 @@
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.test.*" />
+          <option name="PATTERN" value="agenda.test.func1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <extension name="recording" autostart="true" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.TopDownIntegration" />
+      <option name="PACKAGE_NAME" value="agenda.test.func3" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.func3.TopDownIntegration" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -354,15 +377,15 @@
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.test.*" />
+          <option name="PATTERN" value="agenda.test.func1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <extension name="recording" autostart="true" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.TopDownIntegration" />
+      <option name="PACKAGE_NAME" value="agenda.test.func3" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.func3.TopDownIntegration" />
       <option name="METHOD_NAME" value="integrationAddActivity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -488,7 +511,7 @@
       <workItem from="1524990360430" duration="4616000" />
       <workItem from="1524997111184" duration="1325000" />
       <workItem from="1525009040797" duration="20000" />
-      <workItem from="1525010062726" duration="1076000" />
+      <workItem from="1525010062726" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -525,11 +548,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52474000" />
+    <option name="totallyTimeSpent" value="53109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -541,10 +563,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33168316" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4888889" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4962963" weight="0.24962178" />
@@ -940,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="178" column="64" lean-forward="true" selection-start-line="178" selection-start-column="64" selection-end-line="178" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -1062,31 +1077,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="115" selection-start-line="115" selection-end-line="163" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func1/RepoContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func2/RepoActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func3/TopDownIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/func3/BigBangIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>

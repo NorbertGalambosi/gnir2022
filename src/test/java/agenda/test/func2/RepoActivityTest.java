@@ -1,4 +1,4 @@
-package agenda.test;
+package agenda.test.func2;
 
 import agenda.model.base.Activity;
 import agenda.model.base.Contact;
