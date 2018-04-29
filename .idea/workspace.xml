@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/activities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/activities.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddActivityTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddContactTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AddContactTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AfisActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.AfisActivityTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.IntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.IntegrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.RepoActivityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.RepoActivityTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.RepoContactTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-agenda.test.RepoContactTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddActivityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AddActivityTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AfisActivityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.AfisActivityTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.IntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.IntegrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.RepoActivityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.RepoActivityTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/agenda.test.RepoContactTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/agenda.test.RepoContactTest.txt" afterDir="false" />
-    </list>
+    <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +56,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="34">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -507,7 +488,7 @@
       <workItem from="1524990360430" duration="4616000" />
       <workItem from="1524997111184" duration="1325000" />
       <workItem from="1525009040797" duration="20000" />
-      <workItem from="1525010062726" duration="705000" />
+      <workItem from="1525010062726" duration="1076000" />
     </task>
     <servers />
   </component>
@@ -544,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52103000" />
+    <option name="totallyTimeSpent" value="52474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -560,10 +541,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33168316" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3698941" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4888889" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4962963" weight="0.24962178" />
@@ -1104,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="34">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
