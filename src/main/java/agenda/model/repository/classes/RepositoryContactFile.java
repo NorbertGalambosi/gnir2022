@@ -10,7 +10,7 @@ import java.util.List;
 
 public class RepositoryContactFile implements RepositoryContact {
 
-    private static final String filename = "C:\\Users\\gnorb\\Desktop\\Semestrul 2\\VVSS\\gnir2022\\ProiectAgenda\\files\\contacts.txt";
+    private static final String filename = "files\\contacts.txt";
     private List<Contact> contacts;
 
     public RepositoryContactFile() throws Exception {

@@ -15,7 +15,7 @@ import java.util.List;
 
 public class RepositoryActivityFile implements RepositoryActivity {
 
-    private static final String filename = "C:\\Users\\gnorb\\Desktop\\Semestrul 2\\VVSS\\gnir2022\\ProiectAgenda\\files\\activities.txt";
+    private static final String filename = "files\\activities.txt";
     private List<Activity> activities;
     private RepositoryContact contactRep;
 
