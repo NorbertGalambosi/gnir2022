@@ -17,9 +17,10 @@ public class RepositoryActivityFile implements RepositoryActivity {
 
     private static final String filename = "C:\\Users\\gnorb\\Desktop\\Semestrul 2\\VVSS\\gnir2022\\ProiectAgenda\\files\\activities.txt";
     private List<Activity> activities;
-    private RepositoryContact contactRep = new RepositoryContactFile();
+    private RepositoryContact contactRep;
 
     public RepositoryActivityFile(RepositoryContact repcon) throws Exception {
+        contactRep = repcon;
         activities = new LinkedList<Activity>();
         DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm");
         BufferedReader br = null;
@@ -80,6 +81,7 @@ public class RepositoryActivityFile implements RepositoryActivity {
         return false;
     }
 
+
     @Override
     public boolean removeActivity(Activity activity) {
         int index = activities.indexOf(activity);
@@ -133,14 +135,19 @@ public class RepositoryActivityFile implements RepositoryActivity {
     @Override
     public List<Activity> activitiesOnDate(String name, Date d) {
         List<Activity> result1 = new LinkedList<Activity>();
-        for (Activity a : activities)
-            if (a.getName().equals(name))
+        for (Activity a : activities) {
+            a.toString();
+            if (a.getMyName().equals(name)) {
                 if ((a.getStart().getYear() == d.getYear() &&
                         a.getStart().getMonth() == d.getMonth() &&
                         a.getStart().getDate() == d.getDate()) ||
                         (a.getDuration().getYear() == d.getYear() &&
                                 a.getDuration().getMonth() == d.getMonth() &&
-                                a.getDuration().getDate() == d.getDate())) result1.add(a);
+                                a.getDuration().getDate() == d.getDate())) {
+                    result1.add(a);
+                }
+            }
+        }
         List<Activity> result = new LinkedList<Activity>();
         while (result1.size() > 0) {
             Activity ac = result1.get(0);

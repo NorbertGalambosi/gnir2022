@@ -13,6 +13,7 @@ public class Activity {
     private List<Contact> contacts;
     private String description;
     private String place;
+    private String myName;
 
     public Activity(String name, Date start, Date end, List<Contact> contacts,
                     String description) {
@@ -29,12 +30,13 @@ public class Activity {
         this.duration.setTime(end.getTime());
     }
 
-    public Activity(String name, Date start, Date duration, List<Contact> contacts, String description, String place) {
+    public Activity(String name, Date start, Date duration, List<Contact> contacts, String description, String myName, String place) {
         this.name = name;
         this.start = start;
         this.duration = duration;
         this.contacts = contacts;
         this.description = description;
+        this.myName = myName;
         this.place = place;
     }
 
@@ -74,6 +76,14 @@ public class Activity {
         this.description = description;
     }
 
+    public String getMyName() {
+        return myName;
+    }
+
+    public void setMyName(String myName) {
+        this.myName = myName;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Activity))
@@ -104,6 +114,8 @@ public class Activity {
         sb.append(description);
         sb.append("#");
         sb.append(place);
+        sb.append("#");
+        sb.append(myName);
         if (contacts.size() == 0)
             sb.append("#");
         else
@@ -121,11 +133,13 @@ public class Activity {
             Date start = new Date(Long.parseLong(str[1]));
             Date duration = new Date(Long.parseLong(str[2]));
             String description = str[3];
+            String location = str[4];
+            String me = str[5];
             List<Contact> conts = new LinkedList<Contact>();
-            for (int i = 5; i < str.length; i++) {
+            for (int i = 6; i < str.length; i++) {
                 conts.add(repcon.getByName(str[i]));
             }
-            return new Activity(name, start, duration, conts, description);
+            return new Activity(name, start, duration, conts, description,me,location);
         } catch (Exception e) {
             return null;
         }

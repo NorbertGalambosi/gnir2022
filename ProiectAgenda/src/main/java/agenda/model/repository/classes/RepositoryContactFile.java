@@ -16,8 +16,6 @@ public class RepositoryContactFile implements RepositoryContact {
     public RepositoryContactFile() throws Exception {
         contacts = new LinkedList<Contact>();
         BufferedReader br = null;
-//		String currentDir = new File(".").getAbsolutePath();
-//		System.out.println(currentDir);
         try {
             br = new BufferedReader(new InputStreamReader(
                     new FileInputStream(filename)));
@@ -38,6 +36,7 @@ public class RepositoryContactFile implements RepositoryContact {
             // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
+            saveContracts();
             if (br != null) br.close();
         }
     }

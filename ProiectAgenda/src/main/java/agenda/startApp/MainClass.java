@@ -68,10 +68,6 @@ public class MainClass {
                     System.out.println(e.getMessage());
                 }
             }
-            // List<Activity> act =
-            // activityRep.activitiesByName(user.getName());
-            // for(Activity a : act)
-            // System.out.println(a.toString());
 
         } catch (Exception e) {
 
@@ -154,7 +150,7 @@ public class MainClass {
                     Integer.parseInt(timeE.split(":")[1]));
             Date end = c.getTime();
 
-            Activity act = new Activity(denumire, start, end, contacts, description, place);
+            Activity act = new Activity(denumire, start, end, contacts, description, user.getName(), place);
 
             try {
                 if (activityRep.addActivity(act))

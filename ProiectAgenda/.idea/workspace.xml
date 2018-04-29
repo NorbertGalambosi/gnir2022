@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="4a366959-9e49-4bbf-802b-cabefa19af5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/activities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/activities.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/contacts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/contacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryContact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/base/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/base/Activity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/base/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/base/Contact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryActivityFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryActivityFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryActivityMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryActivityMock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryContactFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryContactFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryContactMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryContactMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryUserFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/classes/RepositoryUserFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/interfaces/RepositoryActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/interfaces/RepositoryActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/agenda/model/repository/interfaces/RepositoryContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/model/repository/interfaces/RepositoryContact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/agenda/startApp/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agenda/startApp/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/AddActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/AddActivityTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/AfisActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/AfisActivityTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/IntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/agenda/test/RepoActivityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/agenda/test/RepoActivityTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,36 +67,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RepositoryActivityFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java">
+      <file leaf-file-name="BigBangIntegration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-              <folding>
-                <element signature="e#3430#3431#0" expanded="true" />
-                <element signature="e#3470#3471#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepoActivityTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="99">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="163" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4287#4296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java">
+      <file leaf-file-name="TopDownIntegration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="99">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1973#1982#0" expanded="true" />
+                <element signature="e#3425#3434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
             </state>
           </provider>
         </entry>
@@ -124,6 +119,7 @@
       <find>if</find>
       <find>add</find>
       <find>remove</find>
+      <find>contactRep</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/exceptions/InvalidFormatException.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/gui/models/TableModelActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/gui/models/TableModelContact.java" />
@@ -143,25 +138,28 @@
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/validator/Validator.java" />
         <option value="$PROJECT_DIR$/src/test/java/agenda/test/IntegretionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserMock.java" />
-        <option value="$PROJECT_DIR$/files/contacts.txt" />
         <option value="$PROJECT_DIR$/src/test/java/agenda/test/AddContactTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/base/Contact.java" />
         <option value="$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserFile.java" />
         <option value="$PROJECT_DIR$/files/users.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryContact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java" />
+        <option value="$PROJECT_DIR$/files/activities.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java" />
-        <option value="$PROJECT_DIR$/files/activities.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java" />
+        <option value="$PROJECT_DIR$/files/contacts.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java" />
       </list>
     </option>
   </component>
@@ -178,6 +176,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProiectAgenda" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProiectAgenda" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-250" />
@@ -191,9 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,6 +372,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,20 +402,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepoActivityTest">
+  <component name="RunManager" selected="JUnit.TopDownIntegration">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agenda.startApp.MainClass" />
+      <module name="ProiectAgenda" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agenda.startApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="recording" autostart="false" />
     </configuration>
-    <configuration name="RepoActivityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigBangIntegration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agenda.model.repository.*" />
+          <option name="PATTERN" value="agenda.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +435,19 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoActivityTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.BigBangIntegration" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <patterns />
     </configuration>
-    <configuration name="RepoActivityTest.addActivityWithContactNameError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigBangIntegration.BigBangTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
@@ -433,8 +459,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoActivityTest" />
-      <option name="METHOD_NAME" value="addActivityWithContactNameError" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.BigBangIntegration" />
+      <option name="METHOD_NAME" value="BigBangTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -445,7 +471,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RepoActivityTest.addActivityWithSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepoContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
@@ -457,9 +483,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoActivityTest" />
-      <option name="METHOD_NAME" value="addActivityWithSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoContactTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -469,7 +495,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RepoActivityTest.addActivityWithSuccessNoContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopDownIntegration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
@@ -481,9 +507,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoActivityTest" />
-      <option name="METHOD_NAME" value="addActivityWithSuccessNoContacts" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.TopDownIntegration" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -493,7 +519,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RepoActivityTest.addActivityWithoutSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopDownIntegration.integrationAddActivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectAgenda" />
       <extension name="coverage">
         <pattern>
@@ -505,8 +531,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="agenda.test" />
-      <option name="MAIN_CLASS_NAME" value="agenda.test.RepoActivityTest" />
-      <option name="METHOD_NAME" value="addActivityWithoutSuccess" />
+      <option name="MAIN_CLASS_NAME" value="agenda.test.TopDownIntegration" />
+      <option name="METHOD_NAME" value="integrationAddActivity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -573,19 +599,20 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RepoActivityTest" />
-      <item itemvalue="JUnit.RepoActivityTest.addActivityWithSuccess" />
-      <item itemvalue="JUnit.RepoActivityTest.addActivityWithSuccessNoContacts" />
-      <item itemvalue="JUnit.RepoActivityTest.addActivityWithContactNameError" />
-      <item itemvalue="JUnit.RepoActivityTest.addActivityWithoutSuccess" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="JUnit.RepoContactTest" />
+      <item itemvalue="JUnit.BigBangIntegration" />
+      <item itemvalue="JUnit.BigBangIntegration.BigBangTest" />
+      <item itemvalue="JUnit.TopDownIntegration" />
+      <item itemvalue="JUnit.TopDownIntegration.integrationAddActivity" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RepoActivityTest" />
-        <item itemvalue="JUnit.RepoActivityTest.addActivityWithoutSuccess" />
-        <item itemvalue="JUnit.RepoActivityTest.addActivityWithSuccessNoContacts" />
-        <item itemvalue="JUnit.RepoActivityTest.addActivityWithContactNameError" />
-        <item itemvalue="JUnit.RepoActivityTest.addActivityWithSuccess" />
+        <item itemvalue="JUnit.TopDownIntegration" />
+        <item itemvalue="JUnit.TopDownIntegration.integrationAddActivity" />
+        <item itemvalue="JUnit.BigBangIntegration" />
+        <item itemvalue="JUnit.BigBangIntegration.BigBangTest" />
+        <item itemvalue="JUnit.RepoContactTest" />
       </list>
     </recent_temporary>
   </component>
@@ -621,43 +648,50 @@
       <workItem from="1523035865600" duration="2809000" />
       <workItem from="1523268200055" duration="29000" />
       <workItem from="1523978574751" duration="1267000" />
+      <workItem from="1523988654339" duration="34000" />
+      <workItem from="1524079474971" duration="692000" />
+      <workItem from="1524152911603" duration="3244000" />
+      <workItem from="1524330251895" duration="4454000" />
+      <workItem from="1524338291601" duration="562000" />
+      <workItem from="1524586376401" duration="416000" />
+      <workItem from="1524990360430" duration="4362000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepoActivityTest_addActivityWithSuccessNoContacts - 2018.04.06 at 20h 53m 45s.xml">
-      <configuration name="RepoActivityTest.addActivityWithSuccessNoContacts" configurationId="JUnit" />
+    <history-entry file="BigBangIntegration - 2018.04.29 at 12h 43m 51s.xml">
+      <configuration name="BigBangIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.06 at 20h 53m 49s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 45m 55s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.06 at 20h 56m 52s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration_integrationAddActivity - 2018.04.29 at 12h 47m 41s.xml">
+      <configuration name="TopDownIntegration.integrationAddActivity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest_addActivityWithSuccessNoContacts - 2018.04.06 at 21h 00m 25s.xml">
-      <configuration name="RepoActivityTest.addActivityWithSuccessNoContacts" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration_integrationAddActivity - 2018.04.29 at 12h 47m 43s.xml">
+      <configuration name="TopDownIntegration.integrationAddActivity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.06 at 21h 00m 36s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration_integrationAddActivity - 2018.04.29 at 12h 47m 45s.xml">
+      <configuration name="TopDownIntegration.integrationAddActivity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest_addActivityWithoutSuccess - 2018.04.06 at 21h 01m 34s.xml">
-      <configuration name="RepoActivityTest.addActivityWithoutSuccess" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 48m 12s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest_addActivityWithoutSuccess - 2018.04.06 at 21h 01m 48s.xml">
-      <configuration name="RepoActivityTest.addActivityWithoutSuccess" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 50m 04s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.06 at 21h 01m 57s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 50m 06s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.06 at 21h 01m 59s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 50m 08s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepoActivityTest - 2018.04.17 at 18h 40m 12s.xml">
-      <configuration name="RepoActivityTest" configurationId="JUnit" />
+    <history-entry file="TopDownIntegration - 2018.04.29 at 12h 50m 10s.xml">
+      <configuration name="TopDownIntegration" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36033000" />
+    <option name="totallyTimeSpent" value="49797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -666,32 +700,32 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32673267" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5025094" side_tool="true" weight="0.33223686" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.1376702" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33168316" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.51111114" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49749058" visible="true" weight="0.33168316" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31694403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35325265" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4888889" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4962963" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.51111114" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JDT AST" order="10" />
+      <window_info anchor="right" id="JDT AST" order="9" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -703,7 +737,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -711,20 +745,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="135" column="56" selection-start-line="135" selection-start-column="56" selection-end-line="135" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
@@ -836,13 +856,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1032,90 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AddContactTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryUserFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="17" column="131" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="100" column="29" lean-forward="true" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/users.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="70" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,27 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/contacts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1189,37 +1101,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/activities.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        <state relative-caret-position="170">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="119">
+          <caret line="178" column="64" lean-forward="true" selection-start-line="178" selection-start-column="64" selection-end-line="178" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1785#1794#0" expanded="true" />
+            <element signature="e#2883#2892#0" expanded="true" />
+            <element signature="e#4705#4714#0" expanded="true" />
+            <element signature="e#5829#5838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AddActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="70" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AddContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/AfisActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="229" column="9" lean-forward="true" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/RepoContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/startApp/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="185" column="30" lean-forward="true" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java">
+    <entry file="file://$PROJECT_DIR$/files/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/activities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryActivityFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/interfaces/RepositoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/base/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agenda/model/repository/classes/RepositoryContactFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
-            <element signature="e#3430#3431#0" expanded="true" />
-            <element signature="e#3470#3471#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/contacts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/BigBangIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="163" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4287#4296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/agenda/test/TopDownIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1973#1982#0" expanded="true" />
+            <element signature="e#3425#3434#0" expanded="true" />
           </folding>
         </state>
       </provider>
